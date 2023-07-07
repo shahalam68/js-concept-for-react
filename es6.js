@@ -21,7 +21,7 @@ const about = `My name is ${student.name} age of ${student.age} has number ${num
  // spread operator
 
 
- const newNumbers = numbers;
+ const newNumbers = [...numbers];
  numbers.push(99);
  numbers.push(99);
  numbers.push(99);
